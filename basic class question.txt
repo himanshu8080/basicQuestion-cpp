@@ -1,0 +1,265 @@
+//1
+
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int x;
+//   while(x!=-1){
+//       cout<<"Enter Marks"<<endl;
+//       cin>>x;
+   
+//   if(x>=90){
+//       cout<<"X has grade A"<<endl;
+//   }
+//   else if(x>=80){
+//       cout<<"X has grade B"<<endl;
+//   }
+//   else if(x>=50){
+//       cout<<"X has grade C"<<endl;
+//   }
+//   else if(x>=40){
+//       cout<<"X has grade D"<<endl;
+//   }
+//   else if(x>=0){
+//       cout<<"X has grade E"<<endl;
+//   }
+//   else{
+//       cout<<"GAME OVER";
+//       break;
+//   }
+//   }
+//     return 0;
+// }
+
+
+// 2 
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     int x;
+//     cout<<"Enter the number for multiplication table"<<endl;
+//     cin>>n;
+//     for(int i=1;i<11;i++){
+//         x=n*i;
+//         cout<<n<<" X "<< i <<" = "<<x<<endl;
+//     }
+// }
+
+
+// 3
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter value"<<endl;
+//     cin>>n;
+//     for(int i=0;i<=n;i++){
+//         for(int j=1;j<=i;j++){
+//             cout<<j<<" ";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+
+
+// 4
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+// int n;
+// cout<<"Enter value"<<endl;
+// cin>>n;
+// for(int i=0;i<=n;i++){
+//     for(int j=1;j<=i;j++){
+//         if(i%2!=0){
+//             cout<<"*"<<" ";
+//         }
+//         else{
+//             cout<<i-j+1<<" ";
+//         }
+//     }
+//     cout<<endl;
+// }
+// }
+
+
+
+// 5
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter a value to check if it's even or odd"<<endl;
+//     cin>>n;
+//     if(n%2==0){
+//         cout<<"The number is even"<<endl;
+//     }
+//     else{
+//         cout<<"The number is odd"<<endl;
+//     }
+// }
+
+
+
+
+//6
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     int x;
+//     int counteven=0;
+//     int countodd=0;
+//     cout<<"Enter a value"<<endl;
+//     cin>>n;
+//     while(n!=0){
+//       x=n%10;
+//       if(x%2==0){
+//           counteven+=1;
+//       }
+//       else{
+//           countodd+=1;
+//       }
+//       n=n/10;
+//     }
+//      cout<<"Even digits "<<counteven<<endl;
+//     cout<<"Odd digits "<<countodd<<endl;
+// }
+
+
+
+// 7
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n, t1 = 0, t2 = 1, nextTerm = 0;
+
+//     cout << "Enter the number of terms: ";
+//     cin >> n;
+
+//     cout << "Fibonacci Series: ";
+
+//     for (int i = 1; i <= n; ++i) {
+//         if(i == 1) {
+//             cout << t1 << ", ";
+//             continue;
+//         }
+//         if(i == 2) {
+//             cout << t2 << ", ";
+//             continue;
+//         }
+//         nextTerm = t1 + t2;
+//         t1 = t2;
+//         t2 = nextTerm;
+        
+//         cout << nextTerm << ", ";
+//     }
+//     return 0;
+// }
+
+
+// 8
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+  
+  
+//   int n;
+//   int sum=0;
+//   while (n!=-1){
+//       cout <<"enter the number "<<endl;
+//       cin>>n;
+//       sum=sum+n;
+//       cout<<"sum= "<<sum<<endl;
+//   }
+//     return 0;
+// }
+
+
+
+
+
+// 9
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+  
+  
+//   int n;
+//   int multi=1;
+//   while (n!=-1){
+//       cout <<"enter the number "<<endl;
+//       cin>>n;
+//       multi=multi*n;
+//       cout<<"multi= "<<multi<<endl;
+//   }
+//     return 0;
+// }
+
+
+
+
+// 10
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n=5;
+//     int diff;
+//     int arr[]={10,20,30,40,50};
+//     int counter= 0;
+//     diff=arr[1]-arr[0];
+//     for(int i=0;i<4;i++){
+//       for(int j=i;j<=i;j++){
+//           if(arr[i+1]-arr[i]!=diff){
+//               counter = -1;
+//           }
+//          } 
+//       }
+//       if(counter==0){
+//           cout<<"The array is in arithmetic progression"<<endl;
+//       }else{
+//           cout<<"The array is not in arithmetic progression"<<endl;
+//       }
+//     
+// }
+
+
+// 11
+ 
+//  #include <iostream>
+//  using namespace std;
+//  int main(){
+//      int n;
+//      int sum=0;
+//     cout<<"Enter the value till where you want sum"<<endl;
+//      cin>>n;
+//       cout<<"Sum of numbers from 1 to "<<n<<endl;
+//      for(int i=1;i<=n;i++){
+//          sum+=i;
+//      }
+//      cout<<sum<<endl;
+//  }
+
+
+
+
+// 12
+
+
+
+
