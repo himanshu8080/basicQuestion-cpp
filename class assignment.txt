@@ -93,10 +93,10 @@ using namespace std;
 int main(){
     int n ;
     int d;
-    cout<< " enter digit = "<< " ";
-    cin>>d;
-    cout<<" enter no of terms  = "<<" ";
+    cout<< " enter no of terms = "<< " ";
     cin>>n;
+    cout<<" enter digit  = "<<" ";
+    cin>>d;
     int x=d;
     int sum = 0;
     for (int i = 0; i < n; i++)
@@ -110,6 +110,31 @@ int main(){
     
 
 }
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int checker(int n,int d){
+        int val=d;
+        int sum=d;
+        for(int i=1;i<n;i++){
+                val=d*pow(10,i)+val;
+                sum+=val;
+        }
+        return sum;
+}
+int main(){
+
+        int n;
+        cin>>n;
+        int d;
+        cin>>d;
+        cout<<checker(n,d);
+
+
+}
+
 
 
 

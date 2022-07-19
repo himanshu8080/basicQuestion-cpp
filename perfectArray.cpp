@@ -4,7 +4,7 @@
      public:
      bool IsPerfect(int a[],int n){
  
-        for(int i = 0; i < n/2; i++){
+        for(int i = 0; i < n/2; i++){							////123==321 this is perfect array
             if(a[i] = a[n -i -1]) return true;
         }
         
